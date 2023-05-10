@@ -2,7 +2,7 @@
 
 **Roteiro Prático de Laboratório de Engenharia de Software 1** 
 
-**Alunos: Antônio José Peixoto Chaves    Matrícula: 20193002329**
+**Alunos: Antônio José Peixoto Chaves - Matrícula: 20193002329**
 
 
 Introdução
@@ -220,7 +220,7 @@ A injeção de dependências é um padrão que deve-se usar desde de cedo no seu
 
 
 
-License
+Referências
 -------
 
     Copyright 2012 Square, Inc.
