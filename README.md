@@ -2,7 +2,7 @@
 
 **Roteiro Prático de Laboratório de Engenharia de Software 1** 
 
-**Alunos: Antônio José Peixoto Chaves - Matrícula: 20193002329**
+**Alunos:  - Matrícula: 20193002329**
 
 
 Introdução
