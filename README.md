@@ -63,6 +63,14 @@ A versão 2 do Dagger expõe algumas anotações especiais que são:
 - @Inject, para requisitar um dependência (use no construtor, atributos públicos ou métodos set)
 - @Component, funciona como um ponte entre os módulos(@Module) e a injeção (@Inject).
 
+Criando um ambiente no Android Studio
+-------
+
+
+<div align="center">
+<img src="https://desblogada.files.wordpress.co..." width="0px" />
+</div>
+
 Implementando o Dagger
 -------
 Passo 1: Identificar objetos e suas dependências
