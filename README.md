@@ -68,7 +68,7 @@ Criando um ambiente no Android Studio
 
 
 <div align="center">
-<img src="https://github.com/AntoniojoseBH/-Usando-o-Framework-Dagger-para-Injecao-de-Dependencia/assets/100137076/2850823d-8e64-4792-8498-e0ecd133b4c3" width="0px" />
+<img src="https://user-images.githubusercontent.com/100137076/239402540-2850823d-8e64-4792-8498-e0ecd133b4c3.png" width="0px" />
 </div>
 
 Implementando o Dagger
