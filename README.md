@@ -16,10 +16,10 @@ Em Java, antes de poder usar métodos de outras classes, primeiro precisamos cri
 Desse modo, transferir a tarefa de criação do objeto a outra entidade e usar diretamente a dependência é chamado de injeção de dependência.
 
 Basicamente, existem três tipos de injeção de dependências:
-- 1-injeção do construtor: as dependências são fornecidas por meio de um construtor da classe.
-- 2-injeção pelo setter: o cliente expõe o método setter que o injetor usa para injetar a dependência.
-- 3-injeção de interface: a dependência fornece um método injetor, que injetará uma dependência em qualquer cliente que for passado a ele. Os clientes devem implementar uma interface que expõe um método setter que aceita a dependência.
-- 
+- injeção do construtor: as dependências são fornecidas por meio de um construtor da classe.
+- injeção pelo setter: o cliente expõe o método setter que o injetor usa para injetar a dependência.
+- injeção de interface: a dependência fornece um método injetor, que injetará uma dependência em qualquer cliente que for passado a ele. Os clientes devem implementar uma interface que expõe um método setter que aceita a dependência.
+
 Desse modo, agora é responsabilidade da injeção de dependência:
 
 - Criar os objetos
