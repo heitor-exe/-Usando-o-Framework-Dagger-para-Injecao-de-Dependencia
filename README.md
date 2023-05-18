@@ -67,9 +67,9 @@ Criando um ambiente no Android Studio
 -------
 
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/100137076/239402540-2850823d-8e64-4792-8498-e0ecd133b4c3.png" width="0px" />
-</div>
+
+https://user-images.githubusercontent.com/100137076/239402540-2850823d-8e64-4792-8498-e0ecd133b4c3.png
+
 
 Implementando o Dagger
 -------
