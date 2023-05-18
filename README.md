@@ -66,10 +66,7 @@ A versão 2 do Dagger expõe algumas anotações especiais que são:
 Criando um ambiente no Android Studio
 -------
 
-
-
-https://user-images.githubusercontent.com/100137076/239402540-2850823d-8e64-4792-8498-e0ecd133b4c3.png
-
+![img1](https://github.com/AntoniojoseBH/-Usando-o-Framework-Dagger-para-Injecao-de-Dependencia/assets/100137076/9b056f6d-21a5-4a97-96d0-87bb09ba8e65)
 
 Implementando o Dagger
 -------
