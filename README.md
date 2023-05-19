@@ -68,6 +68,10 @@ Criando um ambiente no Android Studio
 
 ![img1](https://github.com/AntoniojoseBH/-Usando-o-Framework-Dagger-para-Injecao-de-Dependencia/assets/100137076/9b056f6d-21a5-4a97-96d0-87bb09ba8e65)
 
+Configurando o Gradle
+-------
+![im2](https://github.com/AntoniojoseBH/-Usando-o-Framework-Dagger-para-Injecao-de-Dependencia/assets/100137076/e89f1074-118d-45d9-9211-9a9eb5959b03)
+
 Implementando o Dagger
 -------
 Passo 1: Identificar objetos e suas dependências
