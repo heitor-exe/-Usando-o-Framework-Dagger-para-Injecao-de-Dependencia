@@ -72,6 +72,22 @@ Configurando o Gradle
 -------
 ![im2](https://github.com/AntoniojoseBH/-Usando-o-Framework-Dagger-para-Injecao-de-Dependencia/assets/100137076/e89f1074-118d-45d9-9211-9a9eb5959b03)
 
+Agora iremos alterar o build.gradle do nosso módulo app.
+
+Adicione
+```java
+apply plugin:'com.neenbedankt.android-apt'
+```
+logo abaixa da primeira linha do arquivo
+```java
+apply plugin: 'com.android.application'
+```
+E adicione nas dependencias do modulo app
+```java
+compile 'com.google.dagger:dagger:2.0.2'
+apt 'com.google.dagger:dagger-compiler:2.0.2'
+provided 'org.glassfish:javax.annotation:10.0+'
+```
 Implementando o Dagger
 -------
 Passo 1: Identificar objetos e suas dependências
@@ -184,16 +200,16 @@ Agora que está tudo configurado e conectado podemos obter uma instancia dessa i
 
 Para isso irei implementar as chamadas no método OnCreate da nossa MainActivity.
 ```java
-package net.ramonsilva.tutorial.dagger;
+package com.example.injeodedependenciausandodagger.dagger;
  
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.widget.Toast;
  
-import net.ramonsilva.tutorial.component.DaggerUsuarioComponent;
-import net.ramonsilva.tutorial.component.UsuarioComponent;
-import net.ramonsilva.tutorial.model.Usuario;
-import net.ramonsilva.tutorial.module.UsuarioModule;
+import com.example.injeodedependenciausandodagger.component.DaggerUsuarioComponent;
+import com.example.injeodedependenciausandodagger.UsuarioComponent;
+import com.example.injeodedependenciausandodagger.model.Usuario;
+import com.example.injeodedependenciausandodagger.UsuarioModule;
  
 public class MainActivity extends ActionBarActivity {
  
@@ -232,22 +248,6 @@ A injeção de dependências é um padrão que deve-se usar desde de cedo no seu
 
 Referências
 -------
-
-    Copyright 2012 Square, Inc.
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-
-
 
  [1]: http://square.github.com/dagger/
  [dl-dagger]: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.squareup.dagger%22%20a%3A%22dagger%22
